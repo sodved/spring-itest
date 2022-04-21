@@ -1,6 +1,7 @@
 package com.sodved.itestcase0.app.itest;
 
 import com.sodved.itestcase0.app.service.AppService;
+import com.sodved.itestcase0.app.Case0Application;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -11,7 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @ExtendWith({SpringExtension.class})
-@SpringBootTest(classes=DummyApplicationContext.class)
+@SpringBootTest(classes=Case0Application.class)
 public class IntegrationIT {
 
     @Autowired
