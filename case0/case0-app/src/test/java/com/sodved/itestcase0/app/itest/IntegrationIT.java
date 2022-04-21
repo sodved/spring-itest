@@ -1,7 +1,6 @@
-package com.sodved.itestcase1.app.itest;
+package com.sodved.itestcase0.app.itest;
 
-import com.sodved.itestcase1.app.service.AppService;
-import com.sodved.itestcase1.lib.service.LibService;
+import com.sodved.itestcase0.app.service.AppService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -16,10 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 public class IntegrationIT {
 
     @Autowired
-    private LibService libService;
-
-    //@Autowired
-    //private AppService appService;
+    private AppService appService;
 
     @Test
     public void testApplicationLoaded() {
@@ -27,13 +23,8 @@ public class IntegrationIT {
     }
 
     @Test
-    public void testLibSerivce() {
-        log.info("Lib Service: {}", libService.getServiceName());
+    public void testAppSerivce() {
+        log.info("App Service: {}", appService.getServiceName());
     }
-
-    //@Test
-    //public void testAppSerivce() {
-    //    log.info("App Service: {}", appService.getServiceName());
-    //}
 
 }
