@@ -1,4 +1,4 @@
-package com.sodved.itestcase0.app.itest;
+package com.sodved.itestcase0.app;
 
 import com.sodved.itestcase0.app.service.AppService;
 import org.junit.jupiter.api.Test;
@@ -10,8 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-@ExtendWith({SpringExtension.class})
-@SpringBootTest(classes=DummyApplicationContext.class)
+@SpringBootTest
 public class IntegrationIT {
 
     @Autowired
