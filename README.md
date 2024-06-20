@@ -1,3 +1,5 @@
+This is solved now. See: https://stackoverflow.com/questions/50787704/maven-failsafe-fails-with-java-lang-noclassdeffounderror/59993262#59993262
+
 # Spring Integration Test Example
 
 Having all sorts of issues trying to get spring integration tests running. Asked [a question on StakOverflow](https://stackoverflow.com/questions/71836098/) but all a bit convoluted help there. So decided to get the simplest example of our setup to see if I can reproduce the various issues I am hitting.
